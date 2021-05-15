@@ -24,7 +24,8 @@ const styles = StyleSheet.create({
   container: {
     paddingTop: 100,
     flex: 1, 
-    flexDirection: 'row',   
+    flexDirection: 'column',
+    justifyContent: 'space-evenly',
   },
   box1: {
     width: 75,
